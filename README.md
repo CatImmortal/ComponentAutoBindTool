@@ -1,0 +1,2 @@
+# ComponentAutoBindTool
+9102年了作为底层拼图仔的你还在Unity里手写组件绑定代码？
