@@ -1,9 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 using System;
-using Object = UnityEngine.Object;
 using BindData = ComponentAutoBindTool.BindData;
 using System.Reflection;
 using System.IO;
@@ -262,7 +260,6 @@ public class ComponentAutoBindToolInspector : Editor
         }
         EditorGUILayout.EndHorizontal();
 
-        //只有选中一个物体时允许设置类名
         EditorGUILayout.BeginHorizontal();
         m_ClassName.stringValue = EditorGUILayout.TextField(new GUIContent("类名："), m_ClassName.stringValue);
         if (GUILayout.Button("物体名"))
