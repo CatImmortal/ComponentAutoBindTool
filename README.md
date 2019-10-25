@@ -7,4 +7,6 @@
 
 基本用法：为要进行自动绑定物体挂载ComponentAutoBindTool脚本，点击自动绑定组件，然后设置自动生成的绑定代码的命名空间，类名与保存路径，最后点击生成绑定代码即可。
 
+AutoBindGlobalSetting.asset为默认设置文件，可放置于Asset目录下任意位置，若不慎丢失可通过点击菜单栏的CatWorkflow/CreateAutoBindGlobalSetting进行创建。
+
 本项目基于 https://github.com/egametang/ET 中的 ReferenceCollector 开发。
