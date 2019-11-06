@@ -429,7 +429,7 @@ public class ComponentAutoBindToolInspector : Editor
             Debug.LogError($"{go.name}的代码保存路径{codePath}无效");
         }
 
-        using (StreamWriter sw = new StreamWriter($"{codePath}/{className}.BindComponent.cs"))
+        using (StreamWriter sw = new StreamWriter($"{codePath}/{className}.BindComponents.cs"))
         {
             sw.WriteLine("using UnityEngine;");
             sw.WriteLine("using UnityEngine.UI;");
