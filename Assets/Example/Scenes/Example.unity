@@ -1589,7 +1589,7 @@ MonoBehaviour:
     BindCom: {fileID: 506941057}
   m_ClassName: AutoBindTest
   m_Namespace: 
-  m_CodePath: D:/UnityProjects/ComponentAutoBindTool/Assets/Example/Scripts
+  m_CodePath: D:/GitProjects/ComponentAutoBindTool/Assets/Example/Scripts
   m_BindComs:
   - {fileID: 3031567496786292501}
   - {fileID: 3031567497652466427}

@@ -65,6 +65,7 @@ public class ComponentAutoBindToolInspector : Editor
 
     public override void OnInspectorGUI()
     {
+        serializedObject.Update();
 
         DrawTopButton();
 
@@ -75,7 +76,7 @@ public class ComponentAutoBindToolInspector : Editor
         DrawKvData();
 
         serializedObject.ApplyModifiedProperties();
-        serializedObject.UpdateIfRequiredOrScript();
+
 
     }
 
@@ -174,7 +175,7 @@ public class ComponentAutoBindToolInspector : Editor
     {
         m_BindDatas.ClearArray();
        
-        Transform[] childs = m_Target.gameObject.GetComponentsInChildren<Transform>();
+        Transform[] childs = m_Target.gameObject.GetComponentsInChildren<Transform>(true);
         foreach (Transform child in childs)
         {
             m_TempFiledNames.Clear();
