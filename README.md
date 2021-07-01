@@ -10,5 +10,3 @@
 AutoBindGlobalSetting.asset为默认设置文件，可放置于Asset目录下任意位置，若不慎丢失可通过点击菜单栏的CatWorkflow/CreateAutoBindGlobalSetting进行创建。
 
 本项目基于 https://github.com/egametang/ET 中的 ReferenceCollector 开发。
-
-QQ交流群：994743016
